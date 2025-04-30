@@ -14,30 +14,26 @@ export default function Home() {
         </div>
       </header> */}
 
-      <main className="flex-grow container mx-auto px-4 py-8 md:py-16 space-y-12 md:space-y-20">
+      <main className="flex-grow container mx-auto px-4 space-y-12 md:space-y-20">
         {/* Profile Section */}
-        <section id="profile">
-          <ProfileCard />
-        </section>
-
-        <Separator className="my-12 md:my-16" />
+        <ProfileCard />
 
         {/* Skills Section */}
-        <section id="skills">
+        <section id="skills" className="pt-8 md:pt-12">
           <SkillsSection />
         </section>
 
         <Separator className="my-12 md:my-16" />
 
         {/* Projects Section */}
-        <section id="projects">
+        <section id="projects" className="pt-8 md:pt-12">
           <ProjectGallery />
         </section>
 
         <Separator className="my-12 md:my-16" />
 
         {/* Contact Section */}
-        <section id="contact">
+        <section id="contact" className="pt-8 md:pt-12 pb-16 md:pb-24">
           <ContactForm />
         </section>
       </main>
