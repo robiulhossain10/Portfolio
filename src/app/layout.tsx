@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster"; // Import Toaster
 
 // Metadata for the application
 export const metadata: Metadata = {
-  title: 'Persona - Personal Portfolio',
+  title: 'Robiul Hossain',
   description: 'A modern personal portfolio website.',
 };
 
