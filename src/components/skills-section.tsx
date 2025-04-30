@@ -13,7 +13,7 @@ const skillsData = [
 
 export function SkillsSection() {
   return (
-    <Card className="w-full max-w-4xl mx-auto shadow-lg rounded-lg">
+    <Card className="w-full max-w-6xl mx-auto shadow-lg rounded-lg">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">Skills</CardTitle>
       </CardHeader>
