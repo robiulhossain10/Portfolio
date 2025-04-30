@@ -7,11 +7,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 export function ProfileCard() {
-  const name = "Alex Persona";
+  const name = "Robiul Hossain";
   const title = "Full Stack Developer";
   const bio = "Passionate developer creating modern web experiences. Skilled in React, Node.js, and cloud technologies. Always learning and exploring new tech.";
   const initials = name.split(' ').map(n => n[0]).join('');
-  const avatarUrl = "https://picsum.photos/seed/persona/200"; // Keep consistent avatar
+  const avatarUrl = "https://i.postimg.cc/FrbL3CbK/P-P.jpg?dl=1"; // Keep consistent avatar
 
   return (
     <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-br from-background to-secondary/30">
