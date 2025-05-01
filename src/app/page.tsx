@@ -74,7 +74,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   aria-label="GitHub Profile"
                 >
-                   <span className="w-10 h-10 rounded-full inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
+                   <span className="w-10 h-10 rounded-full bg-gray-200 inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
                       <Github className="w-7 h-7 text-foreground hover:text-primary transition-colors" />
                    </span>
                 </Link>
@@ -84,7 +84,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   aria-label="Facebook Profile"
                 >
-                  <span className="w-10 h-10 rounded-full inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
+                  <span className="w-10 h-10 rounded-full bg-gray-200 inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
                    <Facebook className="w-7 h-7 text-foreground hover:text-primary transition-colors" />
                   </span>
                 </Link>
@@ -94,7 +94,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   aria-label="Twitter Profile"
                 >
-                  <span className="w-10 h-10 rounded-full inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
+                  <span className="w-10 h-10 rounded-full bg-gray-200 inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
                    <Twitter className="w-7 h-7 text-foreground hover:text-primary transition-colors" />
                   </span>
                 </Link>
@@ -105,7 +105,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   aria-label="Instagram Profile"
                 >
-                  <span className="w-10 h-10 rounded-full inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
+                  <span className="w-10 h-10 rounded-full bg-gray-200 inline-flex items-center justify-center hover:rotate-[360deg] duration-500">
                    <Instagram className="w-7 h-7 text-foreground hover:text-primary transition-colors" />
                   </span>
                 </Link> 
